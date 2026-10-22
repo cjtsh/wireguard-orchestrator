@@ -277,3 +277,8 @@ cat backup.sql | docker compose exec -T db psql -U wgmanager wgmanager
 ## For Developers
 
 Clone the repo and see `replit.md` for the full developer guide (stack, architecture decisions, local dev setup).
+
+
+## Legal notice
+
+This self-hosted dashboard can use SSH credentials and change WireGuard, firewall, and VPS state. Review the [disclaimer](DISCLAIMER.md), preserve verified backups, and test in a disposable environment before use. Source is provided under the [MIT License](LICENSE).
